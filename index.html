@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramo de Flores Amarillas con Horizonte</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #e0f7fa;
+        }
+
+        svg {
+            width: 300px;
+            height: 400px;
+        }
+
+        .petalo {
+            fill: #ffeb3b;
+            stroke: #fbc02d;
+            stroke-width: 2;
+        }
+
+        .centro {
+            fill: #f57f17;
+        }
+
+        .tallo {
+            stroke: #4caf50;
+            stroke-width: 4;
+            fill: none;
+        }
+
+        .hoja {
+            fill: #66bb6a;
+        }
+
+        .pasto {
+            stroke: #388e3c;
+            stroke-width: 2;
+            fill: none;
+        }
+
+        .horizonte {
+            stroke: #8bc34a;
+            stroke-width: 3;
+        }
+    </style>
+</head>
+<body>
+    <svg viewBox="0 0 100 150">
+        <!-- Flor 1 -->
+        <circle cx="30" cy="30" r="10" class="petalo" />
+        <circle cx="40" cy="40" r="10" class="petalo" />
+        <circle cx="50" cy="30" r="10" class="petalo" />
+        <circle cx="40" cy="20" r="10" class="petalo" />
+        <circle cx="40" cy="30" r="12" class="centro" />
+
+        <!-- Tallo 1 -->
+        <line x1="40" y1="42" x2="40" y2="100" class="tallo" />
+        <!-- Hoja del Tallo 1 -->
+        <ellipse cx="35" cy="60" rx="6" ry="3" class="hoja" />
+
+        <!-- Flor 2 -->
+        <circle cx="60" cy="30" r="10" class="petalo" />
+        <circle cx="70" cy="40" r="10" class="petalo" />
+        <circle cx="80" cy="30" r="10" class="petalo" />
+        <circle cx="70" cy="20" r="10" class="petalo" />
+        <circle cx="70" cy="30" r="12" class="centro" />
+
+        <!-- Tallo 2 -->
+        <line x1="70" y1="42" x2="70" y2="110" class="tallo" />
+        <!-- Hoja del Tallo 2 -->
+        <ellipse cx="65" cy="70" rx="6" ry="3" class="hoja" />
+
+        <!-- Flor 3 -->
+        <circle cx="50" cy="50" r="10" class="petalo" />
+        <circle cx="60" cy="60" r="10" class="petalo" />
+        <circle cx="70" cy="50" r="10" class="petalo" />
+        <circle cx="60" cy="40" r="10" class="petalo" />
+        <circle cx="60" cy="50" r="12" class="centro" />
+
+        <!-- Tallo 3 -->
+        <line x1="60" y1="62" x2="60" y2="120" class="tallo" />
+        <!-- Hoja del Tallo 3 -->
+        <ellipse cx="55" cy="80" rx="6" ry="3" class="hoja" />
+
+        <!-- Horizonte -->
+        <line x1="0" y1="130" x2="100" y2="130" class="horizonte" />
+
+        <!-- Mucho Pasto -->
+        <path d="M5,130 Q10,125 15,130" class="pasto" />
+        <path d="M10,130 Q15,120 20,130" class="pasto" />
+        <path d="M15,130 Q20,125 25,130" class="pasto" />
+        <path d="M20,130 Q25,120 30,130" class="pasto" />
+        <path d="M25,130 Q30,125 35,130" class="pasto" />
+        <path d="M30,130 Q35,120 40,130" class="pasto" />
+        <path d="M35,130 Q40,125 45,130" class="pasto" />
+        <path d="M40,130 Q45,120 50,130" class="pasto" />
+        <path d="M45,130 Q50,125 55,130" class="pasto" />
+        <path d="M50,130 Q55,120 60,130" class="pasto" />
+        <path d="M55,130 Q60,125 65,130" class="pasto" />
+        <path d="M60,130 Q65,120 70,130" class="pasto" />
+        <path d="M65,130 Q70,125 75,130" class="pasto" />
+        <path d="M70,130 Q75,120 80,130" class="pasto" />
+        <path d="M75,130 Q80,125 85,130" class="pasto" />
+        <path d="M80,130 Q85,120 90,130" class="pasto" />
+        <path d="M85,130 Q90,125 95,130" class="pasto" />
+        <path d="M90,130 Q95,120 100,130" class="pasto" />
+    </svg>
+</body>
+</html>
